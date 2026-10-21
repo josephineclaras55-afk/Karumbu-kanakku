@@ -1,1 +1,12 @@
-# Karumbu-kanakku
+# கரும்பு கணக்கு – Android APK
+
+1. GitHub-ல் புதிய repository உருவாக்கவும்.
+2. ZIP-ஐ பிரித்து அனைத்து கோப்புகளையும் `.github/workflows/build-apk.yml` உட்பட upload செய்யவும்.
+3. Actions → Build APK → Run workflow தேர்ந்தெடுக்கவும் (upload செய்தாலும் தானாக ஓடும்).
+4. வெற்றிகரமாக முடிந்ததும் Artifacts → karumbu-kanakku-apk download செய்யவும்.
+5. அதைப் பிரித்து app-debug.apk-ஐ Android போனில் நிறுவவும்.
+
+இது சோதனைக்கான debug APK; Play Store வெளியீட்டிற்கான signed release அல்ல.
+இந்தத் தொகுப்பின் APK உருவாக்கம் இங்கே இயக்கப்படவில்லை; Android போனிலும் சோதிக்கப்படவில்லை.
+உங்கள் HTML-இன் கணக்குகள் மற்றும் சேமிப்பு முறை மாற்றப்படவில்லை. Google எழுத்துரு மற்றும் இணைய வசதிகளுக்கு internet தேவைப்படலாம்.
+செயலியை நீக்கினால் போனில் சேமித்த கணக்குகள் அழியலாம்; முக்கிய கணக்குகளை backup எடுக்கவும்.
